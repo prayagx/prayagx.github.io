@@ -120,6 +120,17 @@ height: 100%;
 .img-square {
     border: 10px solid #eee;
 }
+.birth-day {
+    height: 20px;
+    width: 73px;
+    background-color: #000;
+    position: absolute;
+    z-index: 2;
+    color: #eee;
+    font-family: cursive;
+    top: 111px;
+    left: 24px;
+}
 /* Portrait and Landscape */
 @media only screen and (max-width: 500px) {
     .panel-grid {
