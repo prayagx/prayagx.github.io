@@ -96,9 +96,10 @@ height: 100%;
     width: 90px;
 }
 .family-image {
-    bottom: 100px;
-    left: 15px;
-    position: absolute;
+    bottom: 140px;
+    left: -60px;
+    position: relative;
+    z-index: 3;
     /* top: 172px; */
     width: 169px;
     height: 100px;
@@ -107,9 +108,10 @@ height: 100%;
     transform: rotate(-20deg);
 }
 .sis-image{
-    left: 230px;
-    position: absolute;
-    bottom: 97px;
+    left: -41px;
+    position: relative;
+    z-index: 3;
+    bottom: 124px;
     width: 90px;
 }
 .img-circle {
