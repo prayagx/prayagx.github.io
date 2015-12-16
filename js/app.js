@@ -10,7 +10,6 @@ particlesJS.load('particles-js', 'particles.json', function() {
 */
 
 /* Otherwise just put the config content (json): */
-
 particlesJS('particles-js',
   
   {
@@ -26,7 +25,7 @@ particlesJS('particles-js',
         "value": "#ffffff"
       },
       "shape": {
-        "type": "circle",
+        "type": "triangle",
         "stroke": {
           "width": 0,
           "color": "#000000"
@@ -41,7 +40,7 @@ particlesJS('particles-js',
         }
       },
       "opacity": {
-        "value": 0.5,
+        "value": 0.8,
         "random": false,
         "anim": {
           "enable": false,
@@ -54,7 +53,7 @@ particlesJS('particles-js',
         "value": 5,
         "random": true,
         "anim": {
-          "enable": false,
+          "enable": true,
           "speed": 40,
           "size_min": 0.1,
           "sync": false
@@ -131,6 +130,7 @@ particlesJS('particles-js',
   }
 
 );
+
   function shadeBlendConvert(p, from, to) {
     if(typeof(p)!="number"||p<-1||p>1||typeof(from)!="string"||(from[0]!='r'&&from[0]!='#')||(typeof(to)!="string"&&typeof(to)!="undefined"))return null; //ErrorCheck
     if(!this.sbcRip)this.sbcRip=function(d){
