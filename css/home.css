@@ -6,11 +6,9 @@ body {
     overflow: hidden;
 }
 html, body {
- overflow:hidden;
-width:100%;
+    overflow:hidden;
+    width:100%;
 }
-
-
 canvas {
     display: block;
     vertical-align: bottom;
@@ -76,16 +74,23 @@ canvas {
   top: 23%; left: 38%;
 }
 .grid-ul{
-    height: 330px; width: 330px; position: relative; background-color: #000; color: #eee; font-size: 30px; font-family: fantasy; padding: 20px 10px 10px 10px;
+    height: 330px; 
+    width: 330px; 
+    position: relative; 
+    background-color: #000; 
+    color: #eee; 
+    font-size: 30px; 
+    font-family: fantasy; 
+    padding: 20px 10px 10px 10px;
 }
 .gridster li{
-list-style: none;
- cursor: move;
+    list-style: none;
+    cursor: move;
     border-radius: 15px;
     overflow: hidden;
 }
 .gridster img{
-height: 100%;
+    height: 100%;
     width: 100%;
 }
 
@@ -151,7 +156,23 @@ height: 100%;
      transform: translateY(-50%);
      top: 50%;
  }
-    
+ .nav{
+    top: 10px;
+    width: 163px;
+    height: 28px;
+    padding: 5px;
+    text-align: center;
+    background-color: #000;
+    position: absolute;
+    z-index: 2;
+    right: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: fantasy;
+ }
+ .nav a{
+     color: #eee;
+ }
 @-webkit-keyframes shakeme {
         0% { transform: translate(2px, 1px) rotate(0deg); }
         10% { -webkit-transform: translate(-1px, -2px) rotate(-1deg); }

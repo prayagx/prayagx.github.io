@@ -1,0 +1,30 @@
+{
+    "heading": [
+        "It's a *ing",
+        "Check this shit out, a *ing"
+    ],
+
+    "response": [
+        "Already *ing seen one",
+        "Give me a-*ing-nother one",
+        "Don't really give a F"
+    ],
+
+    "template": [
+        "Big @color @animal",
+        "Silly @animal with @color fur"
+    ],
+
+    "animal": [
+        "dog",
+        "cat",
+        "rabbit"
+    ],
+
+    "color": [
+        "red",
+        "blue",
+        "green",
+        "yellow"
+    ]
+}
